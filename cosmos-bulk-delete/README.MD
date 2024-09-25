@@ -24,7 +24,7 @@ Remember to change the following to suit your environment
 - Launch PowerShell Core
 - Ensure you have the core modules installed (see below)
 - Change the variables in *Common.ps1* to point to your Cosmos account
-- Authenticate to Azure using Azconnect (the account must have permissions to Cosmos and the IP address you are connecting from may need to be whitelisted)
+- Authenticate to Azure using Connect-AZAccount (the account must have permissions to Cosmos and the IP address you are connecting from may need to be whitelisted on the Cosmos account)
 
 ## Populate the container with JSON
 - Populate your json documents into the subfolder nameed json
